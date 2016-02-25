@@ -75,7 +75,7 @@ public class GridLayer extends AbstractSourceLayer {
     /** These are great (semi)circles, so only need 3 points. */
     private static final int NUM_DEC_VERTICES = 3;
     /** every 10 degrees */
-    private static final int NUM_RA_VERTICES = 36;
+    private static final int NUM_RA_VERTICES = 108;
 
     private final ArrayList<LineSourceImpl> lineSources = new ArrayList<LineSourceImpl>();
     private final ArrayList<TextSourceImpl> textSources = new ArrayList<TextSourceImpl>();
